@@ -1,0 +1,1 @@
+Checking if git is working via new SSH key
