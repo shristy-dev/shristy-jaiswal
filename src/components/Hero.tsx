@@ -15,9 +15,9 @@ const Hero = () => {
               Mobile App Developer & Frontend Engineer
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl animate-fade-in">
-              Frontend Developer with 1 year of experience building responsive,
+              Mobile Application (Android + iOS)  Developer with over 2 years of experience building responsive,
               cross-platform web and mobile applications. Specializing in
-              Flutter and React with a focus on clean code and exceptional user
+              Flutter and React Native with a focus on clean code and exceptional user
               experiences.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in">
@@ -28,7 +28,7 @@ const Hero = () => {
                 Get In Touch
               </a>
               <a
-                href="/resume.pdf"
+                href="/shristy_jaiswal_resume.pdf"
                 className="border border-primary text-primary px-8 py-3 rounded-lg hover:bg-primary/10 transition-colors font-medium flex items-center justify-center gap-2"
               >
                 <Download size={20} />
@@ -48,7 +48,7 @@ const Hero = () => {
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-lg shadow-lg">
-                1+
+                2+
                 <br />
                 Years
               </div>

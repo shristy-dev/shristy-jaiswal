@@ -9,7 +9,8 @@ const Experience = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Professional Experience</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My journey in software development and the impact I've made
+            Over 2 years of experience in mobile app development, delivering
+            cross-platform solutions with a focus on performance and usability.
           </p>
         </div>
 
@@ -18,12 +19,12 @@ const Experience = () => {
           <div className="bg-card rounded-lg shadow-lg p-8 border-l-4 border-primary hover:shadow-xl transition-shadow">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
               <div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">Software Engineer - Frontend</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Mobile Applicaiton Developer - Flutter & React Native</h3>
                 <h4 className="text-xl text-primary font-semibold mb-2">Escorts Kubota Limited</h4>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-muted-foreground">
                   <div className="flex items-center gap-2">
                     <Calendar size={16} />
-                    <span>June 2024 – Present</span>
+                    <span>Mar 2024 – Present</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin size={16} />

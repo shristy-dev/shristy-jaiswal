@@ -57,27 +57,18 @@ const Skills = () => {
           </p>
         </div>
 
-        {/* Technical Skills with Progress Bars */}
+        {/* Technical Skills - only names since progress bars removed */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {skillCategories.map((category, categoryIndex) => (
             <div key={categoryIndex} className="bg-card p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-foreground mb-6">{category.title}</h3>
-              <div className="space-y-4">
+              <ul className="space-y-2">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex}>
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="text-muted-foreground font-medium">{skill.name}</span>
-                      <span className="text-muted-foreground text-sm">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-muted rounded-full h-2">
-                      <div 
-                        className="bg-gradient-to-r from-primary to-accent h-2 rounded-full transition-all duration-1000 ease-out"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
+                  <li key={skillIndex} className="text-muted-foreground font-medium">
+                    {skill.name}
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           ))}
         </div>

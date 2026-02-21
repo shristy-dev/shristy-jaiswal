@@ -4,20 +4,20 @@ import { Mail, Phone, MapPin, Linkedin, Github, Send } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Get In Touch</h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Ready to work together? Let's discuss your next project and bring your ideas to life.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="max-w-3xl mx-auto">
           {/* Contact Information */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Let's Connect</h3>
-            <p className="text-gray-700 mb-8 leading-relaxed">
+            <h3 className="text-2xl font-bold text-foreground mb-6">Let's Connect</h3>
+            <p className="text-muted-foreground mb-8 leading-relaxed">
               I'm always open to discussing new opportunities, interesting projects, or just having a chat 
               about technology and development. Whether you have a project in mind or want to connect, 
               I'd love to hear from you!
@@ -26,14 +26,14 @@ const Contact = () => {
             <div className="space-y-6">
               {/* Email */}
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <Mail className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Email</h4>
+                  <h4 className="font-semibold text-foreground">Email</h4>
                   <a 
                     href="mailto:shristyjaiswal0725@gmail.com" 
-                    className="text-gray-600 hover:text-blue-600 transition-colors"
+                    className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     shristyjaiswal0725@gmail.com
                   </a>
@@ -42,14 +42,14 @@ const Contact = () => {
 
               {/* Phone */}
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <Phone className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Phone className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Phone</h4>
+                  <h4 className="font-semibold text-foreground">Phone</h4>
                   <a 
                     href="tel:+917459911384" 
-                    className="text-gray-600 hover:text-blue-600 transition-colors"
+                    className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +91 7459911384
                   </a>
@@ -58,113 +58,38 @@ const Contact = () => {
 
               {/* Location */}
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <MapPin className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900">Location</h4>
-                  <p className="text-gray-600">Faridabad, India</p>
+                  <h4 className="font-semibold text-foreground">Location</h4>
+                  <p className="text-muted-foreground">Faridabad, India</p>
                 </div>
               </div>
             </div>
 
             {/* Social Links */}
             <div className="mt-8">
-              <h4 className="font-semibold text-gray-900 mb-4">Follow Me</h4>
-              <div className="flex gap-4">
+              <h4 className="font-semibold text-foreground mb-4 text-center sm:text-left">Follow Me</h4>
+              <div className="flex gap-4 justify-center sm:justify-start">
                 <a 
-                  href="https://linkedin.com/in/shristy-jaiswal" 
+                  href="https://www.linkedin.com/in/shristy0808/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors"
+                  className="w-12 h-12 bg-primary text-primary-foreground rounded-lg flex items-center justify-center hover:bg-primary/90 transition-colors"
                 >
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a 
-                  href="https://github.com/shristy-jaiswal" 
+                  href="https://github.com/shristy-dev" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-gray-800 text-white rounded-lg flex items-center justify-center hover:bg-gray-900 transition-colors"
+                  className="w-12 h-12 bg-foreground text-background rounded-lg flex items-center justify-center hover:opacity-90 transition-opacity"
                 >
                   <Github className="w-6 h-6" />
                 </a>
               </div>
             </div>
-          </div>
-
-          {/* Contact Form */}
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Send Message</h3>
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                    First Name
-                  </label>
-                  <input
-                    type="text"
-                    id="firstName"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="John"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                    Last Name
-                  </label>
-                  <input
-                    type="text"
-                    id="lastName"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="Doe"
-                  />
-                </div>
-              </div>
-              
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="john@example.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  id="subject"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Project Discussion"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Tell me about your project..."
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium flex items-center justify-center gap-2"
-              >
-                <Send size={20} />
-                Send Message
-              </button>
-            </form>
           </div>
         </div>
       </div>
