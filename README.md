@@ -1,54 +1,63 @@
-## Shristy Jaiswal Portfolio – Developer Guide (Mobile-Centric)
+<h2 align="center">Hello World, I'm Shristy Jaiswal 👋</h2>
 
-### Project Overview
-This is a portfolio web app for Shristy Jaiswal, focused on mobile app development and frontend engineering. The project is built with React, TypeScript, Vite, and Tailwind CSS, and is designed with a mobile-first, responsive approach.
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/368fc1a5-e916-4a33-87f0-50be61b7be0f" alt="LinkedIn"/>
+</p>
 
-### Getting Started
 
-1. **Install dependencies:**
-	```bash
-	npm install
-	```
 
-2. **Run the development server:**
-	```bash
-	npm run dev
-	```
+### 👩‍💻 About Me
 
-3. **Build for production:**
-	```bash
-	npm run build
-	```
+I am a Mobile Application Developer with 2+ years of experience building high-performance, cross-platform applications using Flutter and React Native. I specialize in creating scalable, user-friendly mobile solutions with clean architecture and maintainable code practices.
 
-4. **Preview production build:**
-	```bash
-	npm run preview
-	```
+- 🔭 Currently working as a Mobile Application Developer at Escorts Kubota Limited
+- 📱 Experienced in Flutter, React Native, REST API Integration & State Management
+- 🚀 Passionate about AI-powered applications and performance optimization
+- 💬 Ask me about Flutter, React Native, App Deployment & Mobile Architecture
+- 📫 Reach me at: [shristyjaiswal0725@gmail.com](mailto:shristyjaiswal0725@gmail.com)
+- 🌐 Portfolio: [shristy-jaiswal.netlify.app](https://shristy-jaiswal.netlify.app)
+- 💼 LinkedIn: [linkedin.com/in/shristy0808](https://www.linkedin.com/in/shristy0808/)
 
-### Mobile-First & Responsive Design
-- All layouts and components use Tailwind CSS with mobile breakpoints as the default.
-- The navigation, sidebar, and drawers are optimized for touch and small screens.
-- Images and assets are optimized for fast loading on mobile networks.
-- Use the `useIsMobile` hook for device-specific logic.
 
-### Folder Structure
-- `src/components/` – Reusable UI and page components (Header, Footer, Sidebar, etc.)
-- `src/pages/` – Main page views (Index, Blog, NotFound)
-- `src/hooks/` – Custom React hooks (e.g., `useIsMobile`)
-- `src/lib/` – Utility functions
-- `public/images/` – Static images (optimize for mobile)
 
-### Developer Tips
-- Use Tailwind utility classes for all styling; avoid custom CSS unless necessary.
-- Test all changes on mobile devices/emulators.
-- Keep navigation and touch targets large and accessible.
-- Add smooth page transition animations using the `AnimatedPage` wrapper for better navigation flow.
-- Use semantic HTML and ARIA attributes for accessibility.
 
-### Contributing
-1. Fork the repo and create a feature branch.
-2. Follow the mobile-first and accessibility guidelines above.
-3. Open a pull request with a clear description.
 
----
-For any questions, contact [shristyjaiswal0725@gmail.com](mailto:shristyjaiswal0725@gmail.com).
+
+### 🤝 Connect With Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/shristy0808/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/shristy-dev" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:shristyjaiswal0725@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+
+</p>
+<br/>
+
+### 🛠 Tech Stack
+<br/>
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" width="40" height="40"/>
+</p>
+
+
+
+### 🎓 Education
+
+**B.Tech – Computer Science Engineering (CGPA: 8.1)**  
+Mody University, Rajasthan, India  
+June 2020 – June 2024  
+
