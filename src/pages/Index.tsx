@@ -9,18 +9,22 @@ import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
+import AnimatedPage from '../components/AnimatedPage';
+
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
-    </div>
+    <AnimatedPage>
+      <div className="min-h-screen">
+        <Header />
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Contact />
+        <Footer />
+      </div>
+    </AnimatedPage>
   );
 };
 

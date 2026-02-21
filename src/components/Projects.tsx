@@ -1,8 +1,28 @@
 
 import React from 'react';
 import { ExternalLink, Github, Smartphone, Globe, Database } from 'lucide-react';
+import { toast } from 'sonner';
 
 const Projects = () => {
+  const handleProjectClick = (url: string, e: React.MouseEvent) => {
+    if (url === '#') {
+      e.preventDefault();
+      toast.info('Project Access Restricted', {
+        description: 'This project is for internal use only and cannot be publicly accessed.',
+        duration: 3000,
+      });
+    }
+  };
+
+  const handleCodeClick = (code: string, e: React.MouseEvent) => {
+    if (code === '#') {
+      e.preventDefault();
+      toast.info('Private Repository', {
+        description: 'This is a private repository. The code cannot be viewed publicly.',
+        duration: 3000,
+      });
+    }
+  };
   const projects = [
     {
       title: "SERV GENIE | AI Chatbot",
@@ -15,7 +35,10 @@ const Projects = () => {
         "Responsive layouts with smooth animations",
         "Consistent design across devices"
       ],
-      icon: <Smartphone className="w-6 h-6" />
+      icon: <Smartphone className="w-6 h-6" />,
+      image: "/images/serv_genie.webp",
+      url: "https://play.google.com/store/apps/details?id=com.ekl.servgenie&hl=en",
+      code : "#"
     },
     {
       title: "STOCK AUDITING SYSTEM",
@@ -28,20 +51,46 @@ const Projects = () => {
         "35% reduction in stock verification time",
         "Real-time sync with REST APIs"
       ],
-      icon: <Database className="w-6 h-6" />
+      icon: <Database className="w-6 h-6" />,
+      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
+      url: "#",
+      code : "#"
+    },
+    {
+      title: "Ekonnect Mobile Application",
+      subtitle: "Application Suite for All EKL employees - Hub for HR, IT, Sales and Admin Services Requests",
+      description: "Comprehensive employee portal built with Flutter, serving as a centralized hub for all EKL employees. Streamlines HR processes, IT support tickets, sales tools, and administrative service requests. Includes ESS (Employee Self-Service), attendance tracking, leave management, and real-time notifications for enhanced workplace productivity.",
+      technologies: ["Flutter", "Android", "iOS", "Firebase", "REST APIs", "Push Notifications"],
+      features: [
+        "Employee Self-Service (ESS) for HR operations",
+        "IT helpdesk and support ticket management",
+        "Sales tools and CRM integration",
+        "Real-time attendance and leave tracking",
+        "Administrative service request workflows",
+        "Push notifications for instant updates",
+        "Offline-first architecture for reliability",
+        "Role-based access control (RBAC)"
+      ],
+      icon: <Smartphone className="w-6 h-6" />,
+      image: "https://ekonnect.escortskubota.com/Loginbanner.fbf59eebf34fe6ac94b9.jpg",
+      url: "#",
+      code : "#"
     },
     {
       title: "SUPPLIER SCHEME SUGGEST",
-      subtitle: "Suggestion Portal for EKL supplier and buyer",
+      subtitle: "Suggestion Portal for EKL Procurement Department - Supplier and Buyer",
       description: "Responsive suggestion management portal using Flutter for mobile and React for Web. Implemented dynamic forms and real-time status tracking, improving internal process efficiency by 40%.",
-      technologies: ["Flutter", "React", "Firebase", "Real-time Updates"],
+      technologies: [ "React", "Firebase", "Real-time Updates", "Push Notification"],
       features: [
         "Cross-platform responsive design",
         "Dynamic forms and status tracking",
         "40% improvement in process efficiency",
         "Firebase Cloud Messaging integration"
       ],
-      icon: <Globe className="w-6 h-6" />
+      icon: <Globe className="w-6 h-6" />,
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+      url: "https://suppliersuggest.escortskubota.com/",
+      code : "#"
     }
   ];
 
@@ -58,10 +107,21 @@ const Projects = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-card rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-border">
+              {/* Project Image */}
+              <div className="relative h-48 overflow-hidden bg-muted">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute top-4 right-4 bg-background/90 backdrop-blur-sm p-2 rounded-full">
+                  {project.icon}
+                </div>
+              </div>
+
               {/* Project Header */}
               <div className="p-6 bg-gradient-to-r from-primary to-accent text-primary-foreground">
                 <div className="flex items-center gap-3 mb-2">
-                  {project.icon}
                   <h3 className="text-xl font-bold">{project.title}</h3>
                 </div>
                 <p className="text-primary-foreground/80 text-sm">{project.subtitle}</p>
@@ -103,14 +163,26 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
-                  <button className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm">
+                  <a 
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => handleProjectClick(project.url, e)}
+                    className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors text-sm cursor-pointer"
+                  >
                     <ExternalLink size={16} />
-                    View Demo
-                  </button>
-                  <button className="flex items-center gap-2 px-4 py-2 border border-border text-muted-foreground rounded-lg hover:bg-muted transition-colors text-sm">
+                    View Project
+                  </a>
+                  <a
+                    href={project.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => handleCodeClick(project.code, e)}
+                    className="flex items-center gap-2 px-4 py-2 border border-border text-muted-foreground rounded-lg hover:bg-muted transition-colors text-sm cursor-pointer"
+                  >
                     <Github size={16} />
                     Code
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
