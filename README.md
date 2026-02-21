@@ -1,8 +1,10 @@
 <h2 align="center">Hello World, I'm Shristy Jaiswal 👋</h2>
 
 <p align="center">
-  <img src="https://github.com/No0b-master/No0b-master/assets/62955737/bab6e375-32aa-4be8-aeb5-1ab558fae329" alt="coding" />
+   <img src="https://github.com/user-attachments/assets/368fc1a5-e916-4a33-87f0-50be61b7be0f" alt="LinkedIn"/>
 </p>
+
+
 
 ### 👩‍💻 About Me
 
@@ -17,25 +19,7 @@ I am a Mobile Application Developer with 2+ years of experience building high-pe
 - 💼 LinkedIn: [linkedin.com/in/shristy0808](https://www.linkedin.com/in/shristy0808/)
 
 
-### 🛠 Tech Stack
 
-**Mobile Development**  
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-**Web Development**  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-
-**Backend & Database**  
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/ba** (CGPA: 8.1)  
-Mody University, Rajasthan, India  
-📅 June 2020 – June 2024
 
 
 
@@ -53,8 +37,11 @@ Mody University, Rajasthan, India
   </a>
 
 </p>
+<br/>
 
-
+### 🛠 Tech Stack
+<br/>
+<p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="40" height="40"/>
