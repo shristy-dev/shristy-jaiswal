@@ -16,24 +16,7 @@ I am a Mobile Application Developer with 2+ years of experience building high-pe
 - 🌐 Portfolio: [shristy-jaiswal.netlify.app](https://shristy-jaiswal.netlify.app)
 - 💼 LinkedIn: [linkedin.com/in/shristy0808](https://www.linkedin.com/in/shristy0808/)
 
----
 
-### 🚀 Professional Experience
-
-**Mobile Application Developer (React Native + Flutter)**  
-📍 Escorts Kubota Limited – Faridabad, India (Onsite)  
-📅 Mar 2024 – Present  
-
-- Designed, developed
-
-- Designed, developed, deployed, and maintained scalable mobile and web applications using Flutter and React Native
-- Integrated backend services and RESTful APIs for seamless data flow and optimized performance
-- Led end-to-end development of chatbot solutions, stock auditing applications, and enterprise application suites
-- Delivered technical demonstrations and presentations to stakeholders and senior leadership
-- Collaborated with backend teams to enhance API performance and overall system efficiency
-- Awarded **Excellence Award** for driving digital transformation and automating internal processes
-
----
 ### 🛠 Tech Stack
 
 **Mobile Development**  
@@ -54,19 +37,7 @@ I am a Mobile Application Developer with 2+ years of experience building high-pe
 Mody University, Rajasthan, India  
 📅 June 2020 – June 2024
 
----
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shristy-dev&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shristy-dev&theme=radical" alt="GitHub Streak" />
-</p>
-
----
 
 ### 🤝 Connect With Me
 
@@ -83,32 +54,7 @@ Mody University, Rajasthan, India
 
 </p>
 
----
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shristy-dev&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views"/>
-</p>
-
-<p align="center">
-  ⭐️ From <a href="https://github.com/shristy-dev">Shristy Jaiswal</a>
-</p>
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)duced stock verification time by 35% with offline-first architecture
-- Real-time sync with REST APIs
-
-**📱 Ekonnect Mobile Application**
-- Comprehensive employee portal for HR, IT, Sales, and Admin services
-- Employee Self-Service (ESS), attendance tracking, and leave management
-- Role-based access control with push notifications
-
-**💡 Supplier Scheme Suggest**
-- Responsive portal for EKL procurement department
-- Dynamic forms and real-time status tracking
-- 40% improvement in internal process efficiency
-
----
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="40" height="40"/>
@@ -120,7 +66,7 @@ Mody University, Rajasthan, India
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" width="40" height="40"/>
 </p>
 
----
+
 
 ### 🎓 Education
 
