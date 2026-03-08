@@ -12,12 +12,12 @@ const Hero = () => {
               Hi, I'm <span className="text-primary">Shristy Jaiswal</span>
             </h1>
             <h2 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-6 animate-fade-in">
-              Mobile App Developer & Frontend Engineer
+              Mobile App Developer & Frontend Engineer 
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl animate-fade-in">
-              Mobile Application (Android + iOS)  Developer with over 2 years of experience building responsive,
+              Mobile Application (Android + iOS) and Sitecore Developer with over 2 years of experience building responsive,
               cross-platform web and mobile applications. Specializing in
-              Flutter and React Native with a focus on clean code and exceptional user
+              Flutter, React Native and Sitecore with a focus on clean code and exceptional user
               experiences.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in">
