@@ -4,7 +4,7 @@ import { Award, Users, Coffee, Code } from "lucide-react";
 const About = () => {
   const stats = [
     { icon: Code, label: "Projects Completed", value: "5+" },
-    { icon: Coffee, label: "Years Experience", value: "2+" },
+    { icon: Coffee, label: "Years Experience", value: "4+" },
     { icon: Users, label: "User Engagement Boost", value: "30%" },
     { icon: Award, label: "CGPA", value: "8.7" },
   ];
@@ -17,7 +17,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Passionate frontend developer with a strong foundation in mobile and
+            Passionate Mobile App Engineer (Native + Cross-Platform) & MERN Stack Developer with a strong foundation in mobile and
             web technologies
           </p>
         </div>
@@ -26,7 +26,7 @@ const About = () => {
           {/* About Text */}
           <div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I'm a dedicated Mobile App Developer with over 2 years of hands-on
+              I'm a dedicated Mobile App Engineer (Native + Cross-Platform) & MERN Stack Developer with over 4 years of hands-on
               experience in building responsive, cross-browser web and mobile
               applications. My expertise lies in translating design mockups into
               functional, beautiful user interfaces using modern technologies

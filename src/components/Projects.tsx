@@ -24,6 +24,26 @@ const Projects = () => {
     }
   };
   const projects = [
+     {
+      title: "Ekonnect Mobile Application",
+      subtitle: "Application Suite for All EKL employees - Hub for HR, IT, Sales and Admin Services Requests",
+      description: "Comprehensive employee portal built with Flutter, serving as a centralized hub for all EKL employees. Streamlines HR processes, IT support tickets, sales tools, and administrative service requests. Includes ESS (Employee Self-Service), attendance tracking, leave management, and real-time notifications for enhanced workplace productivity.",
+      technologies: ["Flutter", "Android", "iOS", "Firebase", "REST APIs", "Push Notifications"],
+      features: [
+        "Employee Self-Service (ESS) for HR operations",
+        "IT helpdesk and support ticket management",
+        "Sales tools and CRM integration",
+        "Real-time attendance and leave tracking",
+        "Administrative service request workflows",
+        "Push notifications for instant updates",
+        "Offline-first architecture for reliability",
+        "Role-based access control (RBAC)"
+      ],
+      icon: <Smartphone className="w-6 h-6" />,
+      image: "https://play-lh.googleusercontent.com/gIeQAJ3tVB9q4rLrK95gI_maNhfDHWhCwWg9C1yAD7oxYeVo2LuWabdwCWrGyItKVLhMBhgdz5NhbRc507c_-1s=w240-h480-rw",
+      url: "https://play.google.com/store/apps/details?id=com.ekl.ekonnect",
+      code : "#"
+    },
     {
       title: "SERV GENIE | AI Chatbot",
       subtitle: "Web + Mobile",
@@ -37,6 +57,7 @@ const Projects = () => {
       ],
       icon: <Smartphone className="w-6 h-6" />,
       image: "/images/serv_genie.webp",
+      cover: false,
       url: "https://play.google.com/store/apps/details?id=com.ekl.servgenie&hl=en",
       code : "#"
     },
@@ -53,29 +74,11 @@ const Projects = () => {
       ],
       icon: <Database className="w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop",
+      cover: true,
       url: "#",
       code : "#"
     },
-    {
-      title: "Ekonnect Mobile Application",
-      subtitle: "Application Suite for All EKL employees - Hub for HR, IT, Sales and Admin Services Requests",
-      description: "Comprehensive employee portal built with Flutter, serving as a centralized hub for all EKL employees. Streamlines HR processes, IT support tickets, sales tools, and administrative service requests. Includes ESS (Employee Self-Service), attendance tracking, leave management, and real-time notifications for enhanced workplace productivity.",
-      technologies: ["Flutter", "Android", "iOS", "Firebase", "REST APIs", "Push Notifications"],
-      features: [
-        "Employee Self-Service (ESS) for HR operations",
-        "IT helpdesk and support ticket management",
-        "Sales tools and CRM integration",
-        "Real-time attendance and leave tracking",
-        "Administrative service request workflows",
-        "Push notifications for instant updates",
-        "Offline-first architecture for reliability",
-        "Role-based access control (RBAC)"
-      ],
-      icon: <Smartphone className="w-6 h-6" />,
-      image: "https://ekonnect.escortskubota.com/Loginbanner.fbf59eebf34fe6ac94b9.jpg",
-      url: "#",
-      code : "#"
-    },
+   
     {
       title: "SUPPLIER SCHEME SUGGEST",
       subtitle: "Suggestion Portal for EKL Procurement Department - Supplier and Buyer",
@@ -89,8 +92,26 @@ const Projects = () => {
       ],
       icon: <Globe className="w-6 h-6" />,
       image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
+      cover: true,
       url: "https://suppliersuggest.escortskubota.com/",
       code : "#"
+    },
+    {
+      title: "SBF India",
+      subtitle: "Mobile App for Society for Bright Future NGO",
+      description: "Society for Bright Future is a non-profit NGO established in 2006 under the Vision 2016 scheme. A specialized national organization working in Emergency Relief and Rehabilitation, organizing training programs for volunteers and creating disaster preparedness awareness.",
+      technologies: ["Flutter", "Node.js", "MySQL", "Digital Ocean"],
+      features: [
+        "Emergency relief and rehabilitation information hub",
+        "Volunteer training program management",
+        "Disaster awareness and preparedness resources",
+        "Published on Google Play Store with full compliance",
+        "End-to-end development, deployment & maintenance"
+      ],
+      icon: <Smartphone className="w-6 h-6" />,
+      image: "/images/sbg_india.png",
+      url: "https://play.google.com/store/apps/details?id=com.mobile.sbf",
+      code: "#"
     }
   ];
 
@@ -108,13 +129,15 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="bg-card rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-border">
               {/* Project Image */}
-              <div className="relative h-48 overflow-hidden bg-muted">
+              <div className="relative h-48 overflow-hidden bg-white">
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  className={`w-full h-full hover:scale-105 transition-transform duration-300 ${
+                    project.cover ? 'object-cover' : 'object-contain p-4'
+                  }`}
                 />
-                <div className="absolute top-4 right-4 bg-background/90 backdrop-blur-sm p-2 rounded-full">
+                <div className="absolute top-4 right-4 bg-black p-2 rounded-full shadow">
                   {project.icon}
                 </div>
               </div>
