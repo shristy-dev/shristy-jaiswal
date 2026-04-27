@@ -30,10 +30,10 @@ const Header = () => {
             <a href="mailto:shristyjaiswal0725@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
               <Mail size={20} />
             </a>
-            <a href="https://linkedin.com/in/shristy-jaiswal" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/in/shristy0808/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="https://github.com/shristy-jaiswal" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://github.com/shristy-dev" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github size={20} />
             </a>
             <ThemeToggle />
