@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shristyjaiswal.dev/sitemap.xml
+Sitemap: https://www.shristy.tech/sitemap.xml
 
 
 User-agent: Twitterbot
