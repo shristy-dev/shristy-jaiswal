@@ -11,14 +11,14 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4 text-foreground">Shristy Jaiswal</h3>
             <p className="text-muted-foreground mb-4">
-              Mobile App Developer & Frontend Engineer passionate about creating 
+              Mobile App Developer & MERN stack developer passionate about creating 
               exceptional user experiences through clean code and innovative design.
             </p>
             <div className="flex gap-4">
               <a href="mailto:shristyjaiswal0725@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                 <Mail size={20} />
               </a>
-              <a href="tel:+917459911384" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:+971504295732" className="text-muted-foreground hover:text-primary transition-colors">
                 <Phone size={20} />
               </a>
             </div>
@@ -46,11 +46,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-muted-foreground" />
-                <span className="text-muted-foreground">+91 7459911384</span>
+                <span className="text-muted-foreground">+971 504295732</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={16} className="text-muted-foreground" />
-                <span className="text-muted-foreground">Faridabad, India</span>
+                <span className="text-muted-foreground">Abu Dhabi, UAE</span>
               </div>
             </div>
           </div>

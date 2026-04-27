@@ -48,10 +48,10 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground">Phone</h4>
                   <a 
-                    href="tel:+917459911384" 
+                    href="tel:+971504295732" 
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +91 7459911384
+                    +971 504295732
                   </a>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Location</h4>
-                  <p className="text-muted-foreground">Faridabad, India</p>
+                  <p className="text-muted-foreground">Abu Dhabi, UAE</p>
                 </div>
               </div>
             </div>
