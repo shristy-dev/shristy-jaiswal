@@ -4,6 +4,28 @@ import { Calendar, MapPin, Building2 } from 'lucide-react';
 
 const experiences = [
   {
+    role: 'Full Stack Developer — MERN Stack',
+    company: 'Nyx Wolves Ltd.',
+    logo: '/images/nyx_wolves.png',
+    type: 'Full-time',
+    duration: 'Jun 2026 – Present',
+    location: 'Abu Dhabi, UAE',
+    points: [
+      'Built a confidential, AI-assisted software platform from concept to deployment using the MERN stack and Replit.',
+      'Integrated social media APIs to support secure data ingestion, workflow automation, and platform-specific content operations.',
+      'Used agentic AI workflows to accelerate feature development, automate repetitive processes, and improve product iteration cycles.',
+      'Designed scalable REST APIs, database models, and backend services with a focus on privacy, reliability, and controlled access.',
+      'Implemented secure authentication, role-based access control, and protected handling of sensitive business data.',
+      'Collaborated closely with stakeholders to translate a high-confidentiality product vision into production-ready features.',
+    ],
+    achievements: [
+      'Delivered an end-to-end confidential software product from idea validation to working deployment',
+      'Integrated multiple social media APIs into a unified operational workflow',
+      'Reduced development turnaround time through Replit and agentic AI-assisted engineering workflows',
+      'Established secure access controls and privacy-conscious data handling for sensitive platform operations',
+    ],
+  },
+  {
     role: 'Mobile Application Developer — Flutter & React Native',
     company: 'Escorts Kubota Limited',
     logo: '/images/escorts_kubota.png',
