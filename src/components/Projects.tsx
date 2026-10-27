@@ -24,7 +24,59 @@ const Projects = () => {
     }
   };
   const projects = [
-     {
+    {
+      title: "StockWise",
+      subtitle: "Inventory, billing and ledger management for small businesses",
+      description: "A web and Android app that helps shop owners track products, purchases and sales, create customer bills, and manage credit and debit ledgers. Its dashboard highlights low stock, business value, and sales and purchase trends.",
+      technologies: ["Web App", "Android", "Inventory Management", "Billing", "Business Dashboard"],
+      features: [
+        "Track product stock, purchases, and sales by SKU",
+        "Create customer bills with tax and customer details",
+        "Maintain credit and debit ledgers with running balances",
+        "View low-stock alerts, stock value, and business charts",
+        "Manage multiple businesses and use English, Hindi, or Urdu"
+      ],
+      icon: <Database className="w-6 h-6" />,
+      image: "/images/stocwise.png",
+      cover: false,
+      url: "https://stockwise.welkdock.com",
+      code: "#"
+    },
+    {
+      title: "WelkUI",
+      subtitle: "Open-source comic-inspired React UI library",
+      description: "A React component library for building playful, comic-inspired interfaces. It offers typed props, independently exported components, and support for Next.js client boundaries.",
+      technologies: ["React", "TypeScript", "Next.js", "npm"],
+      features: [
+        "Comic-inspired components with bold outlines and playful colors",
+        "Typed props and independent component exports",
+        "Designed to work with Next.js client boundaries",
+        "Keyboard-friendly controls and reduced-motion support"
+      ],
+      icon: <Globe className="w-6 h-6" />,
+      image: "/images/welkui.png",
+      cover: false,
+      url: "https://ui.welkdock.com",
+      code: "https://github.com/welkdock/welkUI"
+    },
+    {
+      title: "WelkUI Flutter",
+      subtitle: "Comic-inspired UI widgets for Android and iOS",
+      description: "An open-source Flutter widget library that brings WelkUI's playful visual style to mobile apps. The package is available on pub.dev and is built with idiomatic Dart widgets.",
+      technologies: ["Flutter", "Dart", "Android", "iOS", "pub.dev"],
+      features: [
+        "Comic-inspired widgets for mobile interfaces",
+        "Idiomatic Dart widgets for Flutter apps",
+        "Available as the welkui_flutter package on pub.dev",
+        "Mobile-first support for touch, text scaling, and screen readers"
+      ],
+      icon: <Smartphone className="w-6 h-6" />,
+      image: "/images/welkui-flutter.png",
+      cover: false,
+      url: "https://ui.welkdock.com/flutter/",
+      code: "https://github.com/welkdock/welkUI-flutter"
+    },
+    {
       title: "Ekonnect Mobile Application",
       subtitle: "Application Suite for All EKL employees - Hub for HR, IT, Sales and Admin Services Requests",
       description: "Comprehensive employee portal built with Flutter, serving as a centralized hub for all EKL employees. Streamlines HR processes, IT support tickets, sales tools, and administrative service requests. Includes ESS (Employee Self-Service), attendance tracking, leave management, and real-time notifications for enhanced workplace productivity.",
@@ -40,7 +92,7 @@ const Projects = () => {
         "Role-based access control (RBAC)"
       ],
       icon: <Smartphone className="w-6 h-6" />,
-      image: "https://play-lh.googleusercontent.com/gIeQAJ3tVB9q4rLrK95gI_maNhfDHWhCwWg9C1yAD7oxYeVo2LuWabdwCWrGyItKVLhMBhgdz5NhbRc507c_-1s=w240-h480-rw",
+      image: "/images/ekonnect.png",
       url: "https://play.google.com/store/apps/details?id=com.ekl.ekonnect",
       code : "#"
     },
@@ -112,7 +164,7 @@ const Projects = () => {
       image: "/images/sbg_india.png",
       url: "https://play.google.com/store/apps/details?id=com.mobile.sbf",
       code: "#"
-    }
+    },
   ];
 
   return (
